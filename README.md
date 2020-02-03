@@ -1,6 +1,7 @@
 # Aggregate FEELCYCLE
 
-フィールサイクルの自動集計プログラム
+フィールサイクルの自動集計プログラム<br>
+スケジュールページから今までに受講したPRGを集計<br>
 
 ## Required
 * Python 2.7.6
