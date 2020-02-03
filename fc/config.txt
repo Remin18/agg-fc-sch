@@ -1,0 +1,3 @@
+[settings]
+tenpo_ids = 5
+joindate = 2019/07/22
