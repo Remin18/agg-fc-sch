@@ -8,10 +8,13 @@
 ## feel_agg.py
 HEADERSのcookieが空になっていますので設定が必要です。<br>
 cookieはfeelcycleの予約ページから入手可能です。<br><br>
-* Chrome<br>
-mypage→右クリック⇒検証*1⇒予約ページ⇒検証のNetwordタブ→<br>
-一番上のreserve.phpをクリック⇒Request HeadersのCookieをコピー<br>
+
+Chrome<br>
+mypage→右クリック⇒検証*1⇒予約ページ⇒検証のNetwordタブ⇒<br>
+一番上のreserve.phpをクリック⇒Request HeadersのCookieをコピー<br><br>
 *1で検証が開きます。開いたままで予約ページに遷移してください。<br>
+
+![sample](https://github.com/Remin18/agg-fc-sch/blob/master/fc_console.PNG)
 
 コピーしたものをfeel_agg.pyファイルの「Paste here」に設定してください。
 
@@ -82,4 +85,6 @@ joindate = 2018/10/22
 
 ## Execute
 feel_agg.pyとconfig.txtを同じフォルダに配置し、以下のコマンドで実行できます。<br>
-'''python ./feel_agg.py'''
+'''
+python ./feel_agg.py
+'''
